@@ -10,6 +10,7 @@ export const Card = () => {
                         <a href="#" className="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
-            </div>      
+            </div>  
+       
     );
     }

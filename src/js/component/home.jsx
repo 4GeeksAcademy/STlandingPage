@@ -6,8 +6,9 @@ import { Footer } from "./Footer";
 //create your first component
 const Home = () => {
 	return (
-		<div className="container">
+		<div>
 			<Navbar />
+			<div className="container">
 			<Jumbotron />
 			<div className="row">
 			<Card />
@@ -15,7 +16,7 @@ const Home = () => {
 			<Card />
 			<Card />
 			</div>
-			
+			</div>
 			<Footer />
 		</div>	
 	);
